@@ -1,11 +1,29 @@
 #text,
 #info,
 #top {
-    margin-left: 15%;
+    margin-left: 15vw;
 }
 
 #text {
-    height: 30%;
-    width: 70%;
+    height: 50vh;
+    width: 70vw;
     font-size: 1.2em;
+}
+
+@media only screen and (max-width:1100px) {
+
+    #text,
+    #info,
+    #top {
+        margin-left: 2vw;
+    }
+
+    #text {
+        height: 40vh;
+        width: 90vw;
+        font-size: 1.2em;
+    }
+    #text,#top{
+        font-size: 1em;
+    }
 }
